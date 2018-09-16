@@ -1,2 +1,2 @@
-# 6100main.github.io
-this is for awesome new 6100main website!
+# josie-garza.github.io
+this is for the HackRice workshop!
