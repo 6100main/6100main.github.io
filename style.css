@@ -26,6 +26,13 @@ td {
 	text-shadow: -10px 10px 0px #FF3839;
 }
 
+td:link {
+	color: rgb(255, 255, 255);
+	font-size: 9vw;
+	font-weight:bolder;
+	text-shadow: -10px 10px 0px #FF3839;
+
+}
 a:visited {
 	font-family: sans-serif;
 	color: rgb(255, 255, 255);
@@ -101,7 +108,12 @@ p {
 
 #links {
 	font-size: 4vw;
+	text-shadow: -2px 2px 0px #FF3839;
 
+}
+
+#link:hover {
+	color: blue;
 }
 
 td:hover{
