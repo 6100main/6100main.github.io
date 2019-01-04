@@ -84,7 +84,9 @@ p {
 
 #aboutus {
 	font-size: 4vw;
-	text-shadow: none;
+	text-shadow: -3px 3px 0px #FF3839;
+	border-style: solid;
+	border-width: 10px;
 
 }
 
