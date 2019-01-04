@@ -77,6 +77,12 @@ p {
 
 }
 
+#aboutus {
+	font-size: 4vw;
+	text-shadow: none;
+
+}
+
 #back {
 	position: absolute;
 	margin: 0;
