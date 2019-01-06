@@ -79,10 +79,14 @@ p {
 }
 
 #aboutus {
-	font-size: 4vw;
+	font-size: 3vw;
 	text-shadow: -3px 3px 0px #FF3839;
-	border-style: solid;
+	width: -100%;
+	border-style: double;
 	border-width: 10px;
+	border-color: rgb(255, 56, 56);
+
+
 
 }
 
@@ -119,7 +123,7 @@ td:hover{
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
-	text-shadow: -10px 10px 0px #FFC500;
+	text-shadow: -6px 6px 0px #FFC500;
 
 }
 
@@ -134,7 +138,14 @@ body {
 
 #title {
 	margin-top: 0;
+	animation-name: spinner;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	transform-style: preserve-3d;
+	text-align:center;
 }
+
 
 
 @keyframes spinner {

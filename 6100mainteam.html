@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 html {
   box-sizing: border-box;
 }
+
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,7 +16,7 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 25.0%;
   margin-bottom: 16px;
   padding: 0 8px;
   background-color:  #FF3839;
@@ -28,7 +31,15 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 1.0);
+}
+
+.card:hover{
+  position: 0px;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
 }
 
 .container {
@@ -42,7 +53,10 @@ html {
 }
 
 .title {
-  color: grey;
+  font-size: 3vw;
+  color: white;
+  text-shadow: -3px 3px 0px #FF3839;
+
 }
 
 .button {
@@ -60,49 +74,150 @@ html {
 .button:hover {
   background-color: #555;
 }
+
+#teamdescription{
+    font-size: 2vw;
+    text-shadow: -3px 3px 0px #FF3839;
+}
+
+#email{
+  font-size: 1vw;
+  text-shadow: -2px 2px 0px #FF3839;
+}
 </style>
 </head>
 <body>
-
-<h2>Responsive "Meet The Team" Section</h2>
-<p>Resize the browser window to see the effect.</p>
-<br>
-
+  <p id="back">
+    <a href="./index.html" style="text-decoration: none">←</a>
+  </p>
+  <p id="title">
+    TEAM
+  </p>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="photos/team pics/6100Pic - Mai Ton.jpg" alt="Mai" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <p class="title">Mai Ton</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="photos/team pics/6100Pic - Vy Pham.jpg" alt="Vy" style="width:100%">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <p class="title">Vy Pham</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
       </div>
     </div>
   </div>
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="photos/team pics/6100Pic - Shannon Cui.jpg" alt="Shannon" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <p class="title" >Shannon Cui</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Laurel Chen.jpg" alt="Laurel" style="width:100%">
+      <div class="container">
+        <p class="title">Laurel Chen</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Savannah Cofer.jpg" alt="Savannah" style="width:100%">
+      <div class="container">
+        <p class="title">Savannah Cofer</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Taylor Crain.jpg" alt="Taylor" style="width:100%">
+      <div class="container">
+        <p class="title">Taylor Crain</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Varun Kataria.jpg" alt="Varun" style="width:100%">
+      <div class="container">
+        <p class="title" >Varun Kataria</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Tejas Kumar.jpg" alt="Tejas" style="width:100%">
+      <div class="container">
+        <p class="title">Tejas Kumar</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Annie Nguyen.jpg" alt="Annie" style="width:100%">
+      <div class="container">
+        <p class="title">Annie Nguyen</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Sahana Prabhu.jpg" alt="Sahana" style="width:100%">
+      <div class="container">
+        <p class="title">Sahana Prabhu</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Karoline Sun.jpg" alt="Karoline" style="width:100%">
+      <div class="container">
+        <p class="title" >Karoline Sun</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="photos/team pics/6100Pic - Paulina Truong.jpg" alt="Paulina" style="width:100%">
+      <div class="container">
+        <p class="title">Paulina Truong</p>
+        <p id="teamdescription">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p id="email">example@example.com</p>
       </div>
     </div>
   </div>
